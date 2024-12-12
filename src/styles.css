@@ -1,0 +1,16 @@
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
