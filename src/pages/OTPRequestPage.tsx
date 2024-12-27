@@ -35,7 +35,7 @@ const OTPRequestPage: React.FC = () => {
 
     return (
         <div>
-            <h2>Request OTP</h2>
+            <h2>SignUp/SignIn</h2>
             <div>
                 <label>Mobile Number</label>
                 <input
