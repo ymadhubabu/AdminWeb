@@ -4,8 +4,10 @@ import Sidenav from './../../Sidenav';
 
 const HomePage: React.FC = () => {
   return (
+    
     <Box sx={{ display: 'flex' }}>
-      <Sidenav />
+      <Sidenav/>
+    
       <Container maxWidth="sm">
         <Box mt={5}>
           <Typography variant="h4" gutterBottom>
